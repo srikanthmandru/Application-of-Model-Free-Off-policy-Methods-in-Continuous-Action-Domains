@@ -1,4 +1,4 @@
-# Title: Application-of-Model-Free-Off-policy-Methods-in-Continuous-Action-Domains
+# Title: Application of Model-Free Off-policy Methods in Continuous Action Domains
 
 ## Authors: Srikanth Babu Mandru, Prabal Malviya
 
@@ -67,7 +67,7 @@ To conclude, from the experimentation and analysis that we have performed, it ca
 
 ### References:
 
-[1] Our Bipedal Walker simulated videos link: ![walker_videos]( https://drive.google.com/drive/folders/1l_augga4ZT3A3bzLW15-C2CfmxasOesL?usp=sharing )
+[1] Our Bipedal Walker simulated videos link: [walker videos](https://drive.google.com/drive/folders/1l_augga4ZT3A3bzLW15-C2CfmxasOesL?usp=sharing)
 
 [2] Deep Q-Learning Blog: https://www.analyticsvidhya.com/blog/2019/04/introduction-deep-q-learning-python/ 
 
