@@ -26,7 +26,7 @@ For solving this continuous action task (Bipedal Walker), we have initially work
 
 The first algorithm that we applied to the BipedalWalker environment was Deep Q-Network (DQN). Below are the graphs for the reward gathered per episode (agent's steps until it reaches a goal state) and the variance in each episode. 
 
-<center> <img src ="results/fig1.png" width = "600" height = "400" align = "middle"/> </center>
+<img src ="results/fig1.png" width = "500" height = "400" align = "center"/> 
 
 <p align="center"> Figure 1: Reward gathered per episode by the DQN agent on Bipedal-Walker Environment </p align="center">
 
@@ -37,7 +37,7 @@ While DQN solves problems with high-dimensional observation spaces, it can only 
 
 The performance of the agent was measured through the average return obtained from the environment while training. We have plotted the curves showing the variations of the average return over the training steps for both the methods ( DDPG and SAC). Initially, we experimented using both the reinforcement learning algorithms on the plain terrain (without obstacles) to get a better understanding of various methods and their efficiency in handling this task. On the plain-terrain, we obtained the average returns (for both methods) as shown in the below figure:
 
-<center> <img src ="results/fig2.png" width = "600" height = "400" align = "middle" /> </center>
+<img src ="results/fig2.png" width = "500" height = "400" align = "center" />
 
 <p align="center"> Figure 2: Comparison between the DDPG and SAC on soft-terrain Bipedal Walker Environment </p align="center">
 
@@ -52,7 +52,7 @@ Our next experiment was to see how bootstrapping(transfer-learning) helps learn 
 
 Similar to the soft-terrain, we have plotted the average return curves to evaluate the performance of both aforementioned SAC variations on the hard-terrain, and the plot is as shown in the figure 3. Here, from figure 3, we can infer that the average return in the case of a model with pre-trained weights shows better learning of the agent compared to the model trained from random weights. Our initial expectation was that there will be a slight difference in learning between the two cases. But, we are amused to see a significant boost in the agent’s ability to learn quicker with the transfer learning technique which we can see by the amount of variation of the results from both the methods. This experimentation of using the pre-trained weights proves that transfer-learning on similar domains reduces the training time and the computational cost to learn an optimal policy.
 
-<center> <img src ="results/fig3.png" width = "600" height = "400" align = "middle"/> </center>
+<img src ="results/fig3.png" width = "500" height = "400" align = "center" />
 
 <p align="center"> Figure 3: Comparison of SAC with transfer learning and without transfer learning on the Hardcore Bipedal-Walker Environment </p align="center">
 
